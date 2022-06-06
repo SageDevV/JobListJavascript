@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+:root{
+    --primary-color: rgb(0, 79, 116);
+    --primary-color-darker: rgb(0, 53, 78);
+    --primary-color-light: rgb(0, 141, 206);
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color:  var(--primary-color-darker);
+    font-family: "Open Sans", sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    padding: 30px 30px;
+    position: relative;
+        left: 25%;
+}
+.job-list{
+    max-width: 600px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.job-list p, h1, ul {
+    text-align: center;
+    margin: 0%;
+    
+}
+.job-list ul{
+    font-size: 0.3em;
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.job-list li{
+    padding: 5px;
+}
+
+
